@@ -1,3 +1,6 @@
+int shuffle(int[], int[], int); /* ZielListe, Liste, Größe */
+void randomInts(int[], int, int); /* Zielliste, Liste, höhe */
+
 void shuffle(int deck[], int deckSize) 	/* Deck, Deckgröße */
 {
 	int i, deckShuffled[deckSize], rInts[deckSize];
